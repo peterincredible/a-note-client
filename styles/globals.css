@@ -14,3 +14,153 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.fullheight{
+  height: 100%;
+}
+#__next{
+  height: 100%;
+}
+
+.header_link .header_link:hover{
+  
+}
+.brand{
+  font-size:20px;
+}
+
+.form_col{
+  margin-top: 70px;
+}
+.w-100{
+  width:100%;
+
+}
+.form-btn,.form-btn:hover,.form-btn:focus{
+  background-color:#e91e63;
+  color: white;
+  border-color:#e91e63;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.ant-input{
+  font-size: large;
+}
+.link_border{
+  border: 1px solid #742740;
+  border-radius: 10px;
+  padding: 10px;
+}
+.react-ripples{
+  width: 100% !important;
+}
+
+.my_badge{
+  position:absolute;
+  bottom: -1px;
+  right: -3px;
+  cursor:pointer;
+}
+
+.upload_btn{
+  width:100%;
+  display: block;
+}
+
+.upload_btn span{
+  display: block;
+  width: 100%;
+}
+.upload_btn div{
+  width: 100%;
+}
+.upload_btn button{
+  width:100%;
+  border-radius: 5px;
+}
+.upload_btn button span{
+  color: white;
+}
+
+.ant-btn:hover, .ant-btn:focus {
+  border-color:#e91e63;
+ 
+}
+.note_main{
+  position: relative;
+  margin-top: 10px;
+}
+.note_main label{
+  position:absolute;
+  top:-10px;
+  left: 10px;
+  color:rgba(0, 0, 0, 0.23);
+ 
+  background-color:rgb(240, 242, 245);
+  padding:0 5px;
+  font-weight: 500;
+
+}
+.note_input_container{
+  border:1px solid rgba(0, 0, 0, 0.23);
+  border-radius: 5px;
+  height: 55px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.note_input_container:hover{
+  border:1px solid rgba(0, 0, 0, 0.87);
+}
+.focus_background,.focus_background:hover{
+  border:1px solid #e91e63;
+}
+
+
+.label_focus_color{
+  color:  #e91e63!important;
+}
+.sk_span{
+  border:2.5px solid rgba(0, 0, 0, 0.38);
+  width:20px;
+  height:20px;
+}
+
+
+.note_input_container input,.note_input_container input:hover,.note_input_container input:focus-visible{
+  display: inline-block;
+  width: 80%;
+  border: 0px;
+  background-color: inherit;
+  outline: 0px;
+  
+}
+.ant-space-vertical{
+  width:100%;
+}
+.ant-skeleton-element{
+  width:100%;
+}
+
+.ant-skeleton-element .ant-skeleton-input-sm {
+  height: 15px;
+}
+.ant-divider-horizontal {
+  margin: 0 0;
+}
+.mk_ripple{
+  display: block !important;
+}
+.ant-checkbox-inner{
+  width:20px;
+  height:20px;
+}
+.spin_container{
+  text-align: center;
+  position: absolute;
+  top: 49%;
+  left: 52%
+}
